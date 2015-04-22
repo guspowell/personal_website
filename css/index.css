@@ -1,0 +1,55 @@
+/*NAVIGATION BAR*/
+
+nav {
+  padding: 0 2% 0 2%;
+  background-color: white;
+  position: fixed;
+    top: 0;
+  z-index: 100;
+}
+nav ul a {
+  font-size: 15px;
+  color: #5c5c5c;
+}
+nav .brand-logo {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+  font-size: 30px;
+  color: #5c5c5c;
+}
+
+/*FIRST CONTAINER*/
+
+#first-container {
+  margin-top: 100px;
+}
+.title {
+  display: inline-block;
+  background-color: ;
+  margin: 10%;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 5em;
+}
+.code { color: #ff5519; }
+.creative { color: #16d6d9; }
+.strategy { color: #ed0082; }
+
+.profile-picture {
+  position: absolute;
+    bottom: 0;
+    right: 0;
+  width: 40%;
+}
+
+
+/*SECOND CONTAINER*/
+
+.about-container {
+  height: 800px;
+  background-color: #009cf3;
+}
