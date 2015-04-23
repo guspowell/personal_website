@@ -67,8 +67,7 @@ nav .brand-logo {
 /*SKILLS CONTAINER*/
 
 .skills-container {
-  height: 800px;
-  background-color: orange;
+  background-color: #fe8241;
   padding-bottom: 5%;
   text-align: center;
 }
@@ -82,4 +81,23 @@ nav .brand-logo {
   text-align: left;
   color: white;
   font-size: 1.5em;
+  vertical-align: top;
+}
+
+.skills-container .skill h1 {
+  font-size: 1em;
+  line-height: 1em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.skills-container .skill p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.skills-container .skill li {
+  list-style-type: disc;
+  list-style-position:inside;
+  font-size: 0.8em;
 }
