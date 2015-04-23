@@ -38,4 +38,8 @@ $(document).ready(function scrolling() {
     }, 1000);
   });
 
+  $(".brand-logo").click(function() {
+    $('body,html').animate({ scrollTop: 0 }, 1000);
+  });
+
 });
