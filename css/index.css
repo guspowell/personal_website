@@ -116,7 +116,10 @@ nav .brand-logo {
   text-align: center;
 }
 
-.timeline-container h1 { color: black; }
+.timeline-container h1 {
+  color: black;
+  padding-bottom: 0;
+}
 
 #cd-timeline {
   position: relative;

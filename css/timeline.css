@@ -155,13 +155,13 @@ Main components
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #ff5519;
 }
 .cd-timeline-img.cd-movie {
-  background: #c03b44;
+  background: #16d6d9;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #ed0082;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -264,8 +264,19 @@ Main components
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
+.cd-timeline-content h2 {
+  line-height: 2em;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+}
 .cd-timeline-content p {
   margin: 1em 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #5c5c5c;
   line-height: 1.6;
 }
 .cd-timeline-content .cd-read-more {
@@ -325,7 +336,7 @@ Main components
   .cd-timeline-content .cd-date {
     position: absolute;
     width: 100%;
-    left: 122%;
+    left: 75%;
     top: 6px;
     font-size: 16px;
     font-size: 1rem;
