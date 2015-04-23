@@ -137,3 +137,24 @@ nav .brand-logo {
   width: 4px;
   background: #d7e4ed;
 }
+
+/*CONTACT CONTAINER*/
+
+.contact-container {
+  background-color: #6114cc;
+  padding-bottom: 3%;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.contact-container .contact-locations {
+  text-align: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.contact-locations img {
+  width: 10%;
+  vertical-align: middle;
+  margin: 0 2% 0 2%;
+}
