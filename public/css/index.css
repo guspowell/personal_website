@@ -105,8 +105,13 @@ nav .brand-logo {
 
 .interests-container {
   background-color: #333333;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   text-align: center;
+}
+
+img.icon {
+  width: 100%;
+  padding: 15%;
 }
 
 /*TIMELINE CONTAINER*/
