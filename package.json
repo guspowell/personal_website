@@ -1,7 +1,6 @@
 {
   "name": "personal",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,12 +9,7 @@
     "type": "git",
     "url": "https://github.com/guspowell/personal_website.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/guspowell/personal_website/issues"
-  },
-  "homepage": "https://obscure-meadow-5721.herokuapp.com",
   "dependencies": {
     "ejs": "^2.3.1",
     "express": "^4.12.3"
