@@ -31,12 +31,13 @@ nav .brand-logo {
   display: inline-block;
   margin: 10%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 5em;
+  font-size: 6em;
   font-weight: bold;
+  line-height: 1.3em;
 }
-.code { color: #ff5519; }
-.creative { color: #16d6d9; }
-.strategy { color: #ed0082; }
+.title .code { color: #ff5519; }
+.title .creative { color: #16d6d9; }
+.title .strategy { color: #ed0082; }
 
 .profile-picture {
   position: absolute;
