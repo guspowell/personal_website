@@ -29,13 +29,10 @@ nav .brand-logo {
 }
 .title {
   display: inline-block;
-  background-color: ;
   margin: 10%;
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
   font-size: 5em;
+  font-weight: bold;
 }
 .code { color: #ff5519; }
 .creative { color: #16d6d9; }
