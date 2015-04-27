@@ -35,14 +35,25 @@ nav .brand-logo {
   font-weight: bold;
   line-height: 1.3em;
 }*/
+.title {
+  padding: 10%;
+}
+.title h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1em;
+  margin: 0; padding: 0;
+}
 .title .code { color: #ff5519; }
 .title .creative { color: #16d6d9; }
 .title .strategy { color: #ed0082; }
-.title img {
+/*.title img {
   display: inline-block;
   width: 35%;
   margin: 15% 10% 10% 10%;
-}
+}*/
 
 .profile-picture {
   position: absolute;
