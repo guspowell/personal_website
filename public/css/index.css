@@ -27,17 +27,22 @@ nav .brand-logo {
   margin-top: 100px;
   background-color: #eeeeee;
 }
-.title {
+/*.title {
   display: inline-block;
   margin: 10%;
   font-family: 'Open Sans', sans-serif;
   font-size: 6em;
   font-weight: bold;
   line-height: 1.3em;
-}
-.title .code { color: #ff5519; }
+}*/
+/*.title .code { color: #ff5519; }
 .title .creative { color: #16d6d9; }
-.title .strategy { color: #ed0082; }
+.title .strategy { color: #ed0082; }*/
+.title img {
+  display: inline-block;
+  width: 35%;
+  margin: 15% 10% 10% 10%;
+}
 
 .profile-picture {
   position: absolute;
@@ -82,7 +87,7 @@ nav .brand-logo {
 }
 
 .skills-container .skill h1 {
-  font-size: 1em;
+  font-size: 1.3em;
   line-height: 0em;
   margin: 0;
   padding: 0;
@@ -103,7 +108,7 @@ nav .brand-logo {
 
 .interests-container {
   background-color: #333333;
-  padding-bottom: 5%;
+  padding-bottom: 6%;
   text-align: center;
 }
 
