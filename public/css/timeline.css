@@ -1,14 +1,9 @@
-/* --------------------------------
-
-Primary style
-
--------------------------------- */
-#cd-timeline html * {
+html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#cd-timeline *, *:after, *:before {
+*, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -21,25 +16,23 @@ body {
   background-color: #e9f0f5;
 }
 
-#cd-timeline a {
+a {
   color: #acb7c0;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
 
-#cd-timeline img {
+img {
   max-width: 100%;
 }
 
-#cd-timeline h1, h2 {
+h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 
 /* --------------------------------
-
 Modules - reusable parts of our design
-
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -55,17 +48,15 @@ Modules - reusable parts of our design
 }
 
 /* --------------------------------
-
 Main components
-
 -------------------------------- */
-#cd-timeline header {
+header {
   height: 200px;
   line-height: 200px;
   text-align: center;
   background: #303e49;
 }
-#cd-timeline header h1 {
+header h1 {
   color: white;
   font-size: 18px;
   font-size: 1.125rem;
@@ -182,6 +173,12 @@ Main components
     -moz-animation: cd-bounce-1 0.6s;
     animation: cd-bounce-1 0.6s;
   }
+  .cssanimations .cd-timeline-img.bounce-out {
+    visibility: hidden;
+    -webkit-animation: cd-bounce-3 0.6s;
+    -moz-animation: cd-bounce-3 0.6s;
+    animation: cd-bounce-3 0.6s;
+  }
 }
 
 @-webkit-keyframes cd-bounce-1 {
@@ -241,6 +238,68 @@ Main components
     transform: scale(1);
   }
 }
+
+@-webkit-keyframes cd-bounce-3 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+  }
+}
+@-moz-keyframes cd-bounce-3 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+  }
+}
+@keyframes cd-bounce-3 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+  }
+}
+
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
@@ -264,19 +323,8 @@ Main components
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
-.cd-timeline-content h2 {
-  line-height: 2em;
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: bold;
-}
 .cd-timeline-content p {
   margin: 1em 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  color: #5c5c5c;
   line-height: 1.6;
 }
 .cd-timeline-content .cd-read-more {
@@ -304,7 +352,7 @@ Main components
   border: 7px solid transparent;
   border-right: 7px solid white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1170px) {
   .cd-timeline-content h2 {
     font-size: 20px;
     font-size: 1.25rem;
@@ -336,7 +384,7 @@ Main components
   .cd-timeline-content .cd-date {
     position: absolute;
     width: 100%;
-    left: 83%;
+    left: 122%;
     top: 6px;
     font-size: 16px;
     font-size: 1rem;
@@ -368,6 +416,11 @@ Main components
     -moz-animation: cd-bounce-2 0.6s;
     animation: cd-bounce-2 0.6s;
   }
+  .cssanimations .cd-timeline-content.bounce-out {
+    -webkit-animation: cd-bounce-4-inverse 0.6s;
+    -moz-animation: cd-bounce-4-inverse 0.6s;
+    animation: cd-bounce-4-inverse 0.6s;
+  }
 }
 
 @media only screen and (min-width: 1170px) {
@@ -376,6 +429,11 @@ Main components
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;
+  }
+  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-out {
+    -webkit-animation: cd-bounce-4 0.6s;
+    -moz-animation: cd-bounce-4 0.6s;
+    animation: cd-bounce-4 0.6s;
   }
 }
 @-webkit-keyframes cd-bounce-2 {
@@ -490,5 +548,53 @@ Main components
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes cd-bounce-4 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+}
+
+@keyframes cd-bounce-4 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+}
+
+@-webkit-keyframes cd-bounce-4-inverse {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
+  }
+}
+
+@keyframes cd-bounce-4-inverse {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
   }
 }
