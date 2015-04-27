@@ -167,6 +167,10 @@ img.icon {
   padding-bottom: 10%;
 }
 
+.contact-container h1 {
+  margin-bottom: 2%;
+}
+
 .contact-container .contact-locations {
   text-align: left;
   display: inline-block;
@@ -174,7 +178,7 @@ img.icon {
 }
 
 .contact-locations img {
-  width: 10%;
+  width: 15%;
   vertical-align: middle;
-  margin: 0 2% 0 2%;
+  margin: 0 3% 0 3%;
 }
