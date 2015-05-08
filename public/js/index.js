@@ -7,37 +7,43 @@ $(document).ready(function scrolling() {
   var height = "height:" + (windowHeight - navbarHeight) + "px;" + "margin-top:" + navbarHeight + "px;";
   document.getElementById('first-container').setAttribute('style', height)
 
-  $(".about-menu").click(function() {
+  $(".about-menu").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".about-container").offset().top
     }, 1000);
   });
 
-  $(".skills-menu").click(function() {
+  $(".skills-menu").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".skills-container").offset().top
     }, 1000);
   });
 
-  $(".interests-menu").click(function() {
+  $(".interests-menu").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".interests-container").offset().top
     }, 1000);
   });
 
-  $(".timeline-menu").click(function() {
+  $(".timeline-menu").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".timeline-container").offset().top
     }, 1000);
   });
 
-  $(".contact-menu").click(function() {
+  $(".contact-menu").click(function(e) {
+    e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".contact-container").offset().top
     }, 1000);
   });
 
-  $(".brand-logo").click(function() {
+  $(".brand-logo").click(function(e) {
+    e.preventDefault();
     $('body,html').animate({ scrollTop: 0 }, 1000);
   });
 
