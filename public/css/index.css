@@ -49,6 +49,11 @@ nav .brand-logo {
   width: 40%;
 }
 
+@media only screen and (max-width: 500px) {
+  .profile-picture {
+    width: 100%;
+  }
+}
 
 /*ABOUT CONTAINER*/
 
