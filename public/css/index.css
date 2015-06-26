@@ -51,7 +51,14 @@ nav .brand-logo {
 
 @media only screen and (max-width: 500px) {
   .profile-picture {
-    width: 100%;
+    width: 75%;
+  }
+  .title h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5em;
+    line-height: 0.8em;
+    text-align: center;
+    margin-top: 20px;
   }
 }
 
