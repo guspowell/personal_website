@@ -4,8 +4,10 @@ $(document).ready(function scrolling() {
 
   var windowHeight = window.innerHeight;
   var navbarHeight = document.getElementById('navbar').clientHeight;
-  var height = "height:" + (windowHeight - navbarHeight) + "px;" + "margin-top:" + navbarHeight + "px;";
-  document.getElementById('first-container').setAttribute('style', height)
+  var height = windowHeight - navbarHeight;
+  // var height = "height:" + (windowHeight - navbarHeight) + "px;" + "margin-top:" + navbarHeight + "px;";
+  // document.getElementById('first-container').setAttribute('style', height)
+  $('#first-container').css({"height": height, "margin-top": navbarHeight});
 
   $(".about-menu").click(function(e) {
     e.preventDefault();

@@ -145,6 +145,9 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
+.cd-timeline-img.cd-havas {
+  background: #009cf3;
+}
 .cd-timeline-img.cd-picture {
   background: #ff5519;
 }
