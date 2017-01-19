@@ -4,6 +4,7 @@
   <head>
     <title>Gus Powelll</title>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link href="css/index.css" rel="stylesheet">
     <link href="css/timeline.css" rel="stylesheet">
@@ -52,6 +53,34 @@
         am also a sports fanatic who is overly enthusiastic about <span style="color:#ed0082; font-size:1.5em">burgers and pizzas</span>!
       </p>
     </div>
+
+    <!-- <div id="experience-container" class="w3-content w3-display-container">
+      <img class="mySlides" src="images/upbeat.jpg" style="width:100%">
+      <img class="mySlides" src="images/nutricia.jpg" style="width:100%">
+
+      <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+      <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+    </div> -->
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+      }
+    </script>
 
     <div class="skills-container">
       <h1>SKILLS</h1>

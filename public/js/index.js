@@ -56,5 +56,4 @@ $(window).resize(function() {
   var navbarHeight = document.getElementById('navbar').clientHeight;
   var height = "height:" + (windowHeight - navbarHeight) + "px;" + "margin-top:" + navbarHeight + "px;";
   document.getElementById('first-container').setAttribute('style', height)
-  document.getElementById('first-container').setAttribute('style', height)
 });
