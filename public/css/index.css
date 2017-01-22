@@ -114,11 +114,12 @@ nav .brand-logo {
 #experience-container {
   height: 500px;
   max-width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 #experience-container .mySlides {
-  width: 100%;
-  height: 100%;
+   width: 100%;
 }
 
 /*INTERESTS CONTAINER*/
