@@ -39,6 +39,7 @@ nav .brand-logo {
   text-align: left;
   line-height: 1em;
   margin: 0; padding: 0;
+  z-index: 100;
 }
 .title .code { color: #ff5519; }
 .title .creative { color: #16d6d9; }
