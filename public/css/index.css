@@ -50,6 +50,7 @@ nav .brand-logo {
     bottom: 0;
     right: 0;
   width: 50%;
+  z-index: -1;
 }
 
 /* @media only screen and (max-width: 1000px) {
